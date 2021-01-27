@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/rahanbouess/static/css/main.826226e7.chunk.css",
-    "main.js": "/rahanbouess/static/js/main.fb567c19.chunk.js",
-    "main.js.map": "/rahanbouess/static/js/main.fb567c19.chunk.js.map",
-    "runtime-main.js": "/rahanbouess/static/js/runtime-main.b7c66f17.js",
-    "runtime-main.js.map": "/rahanbouess/static/js/runtime-main.b7c66f17.js.map",
-    "static/js/2.9d2b4a23.chunk.js": "/rahanbouess/static/js/2.9d2b4a23.chunk.js",
-    "static/js/2.9d2b4a23.chunk.js.map": "/rahanbouess/static/js/2.9d2b4a23.chunk.js.map",
-    "index.html": "/rahanbouess/index.html",
-    "static/css/main.826226e7.chunk.css.map": "/rahanbouess/static/css/main.826226e7.chunk.css.map",
-    "static/js/2.9d2b4a23.chunk.js.LICENSE.txt": "/rahanbouess/static/js/2.9d2b4a23.chunk.js.LICENSE.txt",
-    "static/media/hosting.673a6e6a.jpg": "/rahanbouess/static/media/hosting.673a6e6a.jpg",
-    "static/media/profile.0cef129e.jpg": "/rahanbouess/static/media/profile.0cef129e.jpg",
-    "static/media/resto.ef81427c.jpg": "/rahanbouess/static/media/resto.ef81427c.jpg"
+    "main.css": "/static/css/main.d6b76fdc.chunk.css",
+    "main.js": "/static/js/main.0f5a58e8.chunk.js",
+    "main.js.map": "/static/js/main.0f5a58e8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a96005a3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a96005a3.js.map",
+    "static/js/2.9d2b4a23.chunk.js": "/static/js/2.9d2b4a23.chunk.js",
+    "static/js/2.9d2b4a23.chunk.js.map": "/static/js/2.9d2b4a23.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d6b76fdc.chunk.css.map": "/static/css/main.d6b76fdc.chunk.css.map",
+    "static/js/2.9d2b4a23.chunk.js.LICENSE.txt": "/static/js/2.9d2b4a23.chunk.js.LICENSE.txt",
+    "static/media/game.2aba07b8.jpg": "/static/media/game.2aba07b8.jpg",
+    "static/media/hosting.2bb3b290.jpg": "/static/media/hosting.2bb3b290.jpg",
+    "static/media/profile.0cef129e.jpg": "/static/media/profile.0cef129e.jpg",
+    "static/media/resto.f83585f1.jpg": "/static/media/resto.f83585f1.jpg",
+    "static/media/shila.ed4910a7.jpg": "/static/media/shila.ed4910a7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b7c66f17.js",
+    "static/js/runtime-main.a96005a3.js",
     "static/js/2.9d2b4a23.chunk.js",
-    "static/css/main.826226e7.chunk.css",
-    "static/js/main.fb567c19.chunk.js"
+    "static/css/main.d6b76fdc.chunk.css",
+    "static/js/main.0f5a58e8.chunk.js"
   ]
 }
