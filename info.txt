@@ -1,0 +1,12 @@
+
+fonts:
+Montserrat 
+
+color:
+black:#201e20
+grey:#aeadae
+grey2:#4c4c4c
+blue:#79e5e9
+purple:#c62fc6
+yellow:#f2d25d
+blue2:#2959e1
