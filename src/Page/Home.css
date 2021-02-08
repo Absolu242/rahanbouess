@@ -175,6 +175,21 @@
   font-weight: 700;
 }
 
+.about__personal--info .name .resume {
+  background: none;
+  background-color: #aeadae;
+  border: none;
+  padding: 0.8rem 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.about__personal--info .name .resume a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .about__personal--info .myself {
   text-align: left;
   font-size: 1.4rem;

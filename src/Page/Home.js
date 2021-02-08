@@ -3,8 +3,7 @@ import "./Home.css"
 import img from "../data/images/profile.jpg"
 import instagram from "../data/images/instagram.png"
 import github from "../data/images/github.png"
-// import linkedin from "../data/images/linkedin.png"
-import twitter from "../data/images/twitter.png"
+import linkedin from "../data/images/linkedin.png"
 
 import { projects } from "../data/images/projects"
 
@@ -48,7 +47,8 @@ export default function Home() {
           </div>
           <div className="header__content--text">
             <p>
-              Allow me to thank you for visiting my website and for showing interest to my work. <br />
+              Allow me to thank you for visiting my website and for showing
+              interest to my work. <br />
             </p>
           </div>
         </div>
@@ -60,7 +60,10 @@ export default function Home() {
             <div className="project" key={i}>
               <div className="project__content">
                 <a href={project.live} target="_blank" rel="noreferrer">
-                  <div className="project__content--image " style={{ backgroundImage: `url(${project.image})` }}></div>
+                  <div
+                    className="project__content--image "
+                    style={{ backgroundImage: `url(${project.image})` }}
+                  ></div>
                 </a>
                 <div className="project__content--info">
                   <div className="name">
@@ -83,7 +86,11 @@ export default function Home() {
                       </span>
                       <span>
                         {" "}
-                        <a href={project.github} target="_blank" rel="noreferrer">
+                        <a
+                          href={project.github}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           Github
                         </a>
                       </span>
@@ -114,19 +121,35 @@ export default function Home() {
                     Rahan <span>Bouess</span>
                   </span>
                 </p>
+                <button className="resume">
+                  <a
+                    href="https://drive.google.com/file/d/1vlWMt_qO8OG_nV2Q6SlwEBcWx1XGBjFB/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Get My Resume
+                  </a>
+                </button>
               </div>
               <div className="myself">
                 <div className="title">
                   <p>A bit about me :</p>
                 </div>
 
-                <p>I'm a frontend web developer with a passion for web design and problem solving, I spend most of my time learning so that I could be able to bring solutions to people's problems.</p>
+                <p>
+                  I'm a frontend web developer with a passion for web design and
+                  problem solving, I spend most of my time learning so that I
+                  could be able to bring solutions to people's problems.
+                </p>
 
                 <p>
-                  Although I specialise and see myself as a <span>Frontend </span> Web Developer ,I also have kwnoledge and working experience with backend technologies.
+                  Although I specialise and see myself as a{" "}
+                  <span>Frontend </span> Web Developer ,I also have kwnoledge
+                  and working experience with backend technologies.
                 </p>
                 <p>
-                  Below you will see some of the technologies that I work with but also the certifications I got. <br /> Please feel free to{" "}
+                  Below you will see some of the technologies that I work with
+                  but also the certifications I got. <br /> Please feel free to{" "}
                   <span className="c">
                     <a href="#contact">contact me</a>{" "}
                   </span>{" "}
@@ -141,14 +164,16 @@ export default function Home() {
                 </div>
 
                 <p>
-                  <span className="front">Frontend:</span> HTML5, CSS3, SASS, JAVASCRIPT, REACT.JS, REDUX, JEST, PHOTOSHOP,
+                  <span className="front">Frontend:</span> HTML5, CSS3, SASS,
+                  JAVASCRIPT, REACT.JS, REACT NATIVE, REDUX, PHOTOSHOP,
                 </p>
 
                 <p>
-                  <span className="back">Backend :</span> NODE, EXPRESS, MONGODB,{" "}
+                  <span className="back">Backend :</span> NODE, EXPRESS,
+                  MONGODB,{" "}
                 </p>
                 <p>
-                  <span className="tools">Tools :</span> GIT, WEBPACK, NPM
+                  <span className="tools">Tools :</span> GIT, NPM
                 </p>
               </div>
             </div>
@@ -191,23 +216,39 @@ export default function Home() {
             </div>
             <div className="text container">
               <p>
-                Feel free to contact me if you have any query <br /> <span>or </span>
+                Feel free to contact me if you have any query <br />{" "}
+                <span>or </span>
                 <br /> connect with me through my social accounts.{" "}
               </p>
             </div>
             <div className="social">
               <span>
-                <a class="twitter" target="_blank" rel="noreferrer" href="https://twitter.com/LeibnizWang">
-                  <img src={twitter} alt="twitter " />
+                <a
+                  class="twitter"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://linkedin.com/in/rahan-bakala-bouess-25714a204"
+                >
+                  <img src={linkedin} alt="linkedin " />
                 </a>
               </span>
               <span>
-                <a class="github" target="_blank" rel="noreferrer" href="https://github.com/Absolu242">
+                <a
+                  class="github"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/Absolu242"
+                >
                   <img src={github} alt="github " />
                 </a>
               </span>
               <span>
-                <a class="instagram" target="_blank" rel="noreferrer" href="https://www.instagram.com/rahan_bouess/ ">
+                <a
+                  class="instagram"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/rahan_bouess/ "
+                >
                   <img src={instagram} alt="instagram " />
                 </a>
               </span>

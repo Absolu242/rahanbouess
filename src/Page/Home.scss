@@ -138,6 +138,19 @@ $trans: "translateX(-100%)";
                         font-weight: 700;
                     }
                 }
+                .resume {
+                    background: none;
+                    background-color: $grey;
+                    border: none;
+                    padding: 0.8rem 1rem;
+                    margin: 1rem 0;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    a {
+                        color: $white;
+                        text-decoration: none;
+                    }
+                }
             }
             .myself {
                 text-align: left;
